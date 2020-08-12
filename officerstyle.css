@@ -1,0 +1,66 @@
+body{
+ background-color:#2387DF;
+}
+
+#image0{
+position:absolute;
+width:100%;
+height:50%;
+
+}
+
+#image1{
+position:absolute;
+width:340px;
+height:324px;
+margin-top:25%;
+margin-left:25%;
+box-shadow: 3px 3px 3px 3px  #828481;
+}
+h2{
+   text-align:center;
+
+
+}
+#button1{
+
+	position:absolute;
+	box-shadow: 3px 3px 3px 3px  #828481;
+	margin-left:55%;
+	margin-top:25%;
+        width:150px;
+	height:162px;
+}
+#button2{
+box-shadow: 3px 3px 3px 3px  #828481;
+	height:24px;
+	position:absolute;
+	margin-left:95%;      
+}
+#button3{
+box-shadow: 3px 3px 3px 3px  #828481;
+	position:absolute;
+	
+	margin-left:65%;
+	margin-top:25%;
+        width:150px;
+	height:162px;
+}
+#button4{
+box-shadow: 3px 3px 3px 3px  #828481;
+	position:absolute;
+	
+	margin-left:55%;
+	margin-top:35%;
+        width:150px;
+	height:162px;
+}
+#button5{
+box-shadow: 3px 3px 3px 3px  #828481;
+	position:absolute;
+	
+	margin-left:65%;
+	margin-top:35%;
+        width:150px;
+	height:162px;
+}

@@ -1,0 +1,96 @@
+body {
+    position:absolute;
+    background-image: url('hospitalhome.JPG');
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+}
+#main{ 
+	margin-left:640px;
+         text-shadow: 0 0 3px  green; 
+	color:green;
+	position:center;
+}
+ #panel, #flip {
+  position:absolute;
+box-shadow: 2px 2px 2px 2px  #828481;
+  
+  padding: 5px;
+  margin-top:320px;
+  width:290px;
+  text-align: left;
+  background-color:rgb(228, 233, 225);
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  
+   margin-top:50%;
+  padding: 50px;
+  display: none;
+margin-top:350px;
+width:200px;
+  
+}
+#panel1, #flip1 {
+  position:absolute;
+box-shadow: 2px 2px 2px 2px  #828481;
+  
+  padding: 5px;
+  margin-top:320px;
+  margin-left:400px;
+  width:290px;
+  
+  text-align: left;
+  background-color: rgb(228, 233, 225);
+  border: solid 1px #c3c3c3;
+}
+#panel1 {
+  padding: 50px;
+  display: none;
+margin-top:350px;
+width:200px;
+}
+
+#date {
+  position:absolute;
+ box-shadow: 2px 2px 2px 2px  #828481;
+  padding: 3px;
+  margin-top:320px;
+  margin-left:800px;
+  width:290px;
+  
+  
+  background-color: rgb(228, 233, 225);
+  border: solid 1px #c3c3c3;
+}
+#panel2, #flip2 {
+  position:absolute;
+box-shadow: 2px 2px 2px 2px  #828481;
+  padding: 5px;
+  margin-top:320px;
+  margin-left:1200px;
+  width:290px;
+  
+  text-align: left;
+  background-color:rgb(228, 233, 225);
+  border: solid 1px #c3c3c3;
+}
+#panel2 {
+  padding: 50px;
+  display: none;
+margin-top:350px;
+width:200px;
+}
+#button{
+  box-shadow: 2px 2px 2px 2px  #828481;
+  margin-top:500px;
+  margin-left:750px;
+ 
+}
+#button2{
+box-shadow: 2px 2px 2px 2px  #828481;
+  text-align:right;
+  margin-top:0%;
+  margin-left:1450px;
+}
+

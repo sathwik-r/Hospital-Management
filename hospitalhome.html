@@ -1,0 +1,66 @@
+
+<html>
+<head>
+    <title> Transparent Login Form Design </title>
+    <link rel="stylesheet" type="text/css" href="hospitalhomestyle.css">  
+   <script src="jquery-3.4.1.min.js"></script>
+
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+   
+  });
+ 
+});
+$(document).ready(function(){
+  $("#flip1").click(function(){
+    $("#panel1").slideDown("slow");
+  });
+});
+
+$(document).ready(function(){
+  $("#flip2").click(function(){
+    $("#panel2").slideDown("slow");
+ 
+  });
+});
+function myFunction(){
+	alert("Application succesful");
+}
+</script>
+</head>
+<body>
+<h1 id="main">Doctor Appointment Portal</h1>
+
+<div id="flip1">Choose Time</div>
+
+<div id="panel1"> 
+ <input type="radio" name="slot" value="10am-12pm"checked>10am-12pm<br>
+  <input type="radio" name="slot" value="2pm-4pm">2pm-4pm <br>
+  <input type="radio" name="slot" value="4pm-6pm">4pm-6pm<br>  
+   <input type="radio" name="slot" value="6pm-8pm">6pm-8pm
+</div>
+ <div id="flip">Enter Pincode</div>
+<div id="panel"> 
+<input type="number" number="pincode"><br>
+</div>
+
+<div id="date">Choose date: <input type="date" name="bday"></div>
+
+<div id="flip2">Choose Specalist</div>
+
+<div id="panel2"> 
+ <input type="radio" name="slot" value="Skin Care"checked>Skin Care<br>
+  <input type="radio" name="slot" value="ENT">ENT<br>
+  <input type="radio" name="slot" value="Eye Care">Eye Care<br>  
+   <input type="radio" name="slot" value="Orthopedic">Orthopedic<br>
+   <input type="radio" name="slot" value="Cardeology">Cardeology<br>
+   <input type="radio" name="slot" value="Brain and Spine">Brain and Spine<br>
+   <input type="radio" name="slot" value="General Physician">General Physician<br>
+</div>
+
+<button id="button" onclick="myFunction()"type ="submit">Submit</button>
+
+</body>
+</html>
